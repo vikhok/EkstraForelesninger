@@ -21,7 +21,7 @@ public class ServletDeleteUser extends HttpServlet {
         out.println("<html><body>");
         out.println("<h1>Delete user from the database by providing email:</h1>");
         out.println("<form action='ServletDeleteUser' method='POST'>");
-        out.println("<input type='text' name='email' placeholder='Email'/>");
+        out.println("<input type='email' name='email' placeholder='Email'/>");
         out.println("<input type='submit'/>");
         out.println("</form>");
         out.println("</body></html>");
