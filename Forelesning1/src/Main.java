@@ -11,7 +11,7 @@ public class Main {
 
         //oppgave 2, 50% rabatt
         System.out.println("Halvprisen er:");
-        System.out.println(marsipanKake1.GiMegHvilkenPris());
+        System.out.println(marsipanKake1.halvPrisPåKake());
 
         //oppgave 3, pris på 5 marsipankaker
         System.out.println("Final pris på antall kaker du vil kjøpe:");
