@@ -26,12 +26,7 @@ public class ServletLogin extends HttpServlet {
             HttpSession session = request.getSession();
             session.setAttribute("email", email);
 
-            out.println("<html><body>");
             out.println("Du er nå logget inn!");
-            out.println("<form action='ServletDeleteUser' method='GET'>");
-            out.println("<input type='submit' value='Delete User' />");
-            out.println("</form>");
-            out.println("</body></html>");
         } else {
             out.println("OBS! Enten email eller passord er feil! prøv en gang til!");
         }
